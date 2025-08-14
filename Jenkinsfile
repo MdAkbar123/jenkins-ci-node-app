@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKER_HUB_CREDENTIALS = credentials('dockerhub-creds')                                                   
-    IMAGE_NAME = "yourdockerhubusername/node-app" 
+    IMAGE_NAME = "akbar00/jenkins-ci-node-app" 
   }
 
   stages {
